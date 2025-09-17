@@ -1,0 +1,5 @@
+it is fast and efficient for system-level programming
+
+it provides low-level access to memory and hardware
+
+it is the foundation for many modern languages and operating systems
