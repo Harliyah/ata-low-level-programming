@@ -1,0 +1,10 @@
+unix operating system
+
+linux kernel
+
+microsoft windows (core parts)
+
+oracle database
+
+git version control system
+
