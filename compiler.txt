@@ -1,0 +1,2 @@
+A compiler is a program that translates human-readable source code (like C) into machine code that the computer can execute. It checks the code for errors, converts it into an efficient low-level form, and produces an executable file. Without a compiler, the computer would not understand high-level programming languages.
+

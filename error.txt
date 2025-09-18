@@ -1,0 +1,2 @@
+When I mistakingly removed the semicolon, I got this error: 
+error: expected ';' after expression which indicated that I missed a semi colon 

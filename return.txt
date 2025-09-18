@@ -1,0 +1,1 @@
+When main() returns 1, it means the program ended with an error or abnormal condition so it won't give the desired output.

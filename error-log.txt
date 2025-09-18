@@ -1,0 +1,8 @@
+I tried to break my hello.c program by removing }, I git this error message: 
+hello.c:4:11: error: expected '}'
+    4 |         return 0;
+          |                  ^
+	  hello.c:2:11: note: to match this '{'
+	      2 | int main(){
+	            |           ^
+		    1 error generated.
