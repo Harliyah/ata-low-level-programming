@@ -9,17 +9,17 @@ int main(){
 	scanf("%d", &thirdnum);
 	if(firstnum > secondnum && firstnum > thirdnum)
 	{
-	  printf("%d is the largest number \n", firstnum);
+	  printf("%d is the largest number.\n", firstnum);
 	}
 	else if(secondnum > firstnum && secondnum > thirdnum)
 	{
-	  printf("%d is the largest number \n",secondnum);
+	  printf("%d is the largest number.\n",secondnum);
 	}
 	else if(thirdnum > firstnum &&  thirdnum > secondnum)
 	{
-	    printf("%d is the largest number \n", thirdnum);
+	    printf("%d is the largest number.\n", thirdnum);
 	}
 	else{
-		printf("The numbers are equal \n");
+		printf("The numbers are equal.\n");
 	}
 }

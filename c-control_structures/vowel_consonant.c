@@ -5,17 +5,17 @@ int main(){
 	char letterl;
 	printf("Enter a character: ");
 	scanf(" %c", &letter);
-	if(isdigit(letter)){
-		printf("%c is not a letter \n", letter);
+	if(isdigit(letter) || !isalpha(letter)){
+		printf("%c is not a letter.\n", letter);
 	}
 	else{
 		letterl = tolower(letter);
 		if( letterl =='a' || letterl == 'e' || letterl == 'i'|| letterl == 'o' || letterl == 'u')
 		{
-			printf("'%c' is a vowel \n", letter);
+			printf("'%c' is a vowel.\n", letter);
 		}
 		else{
-			printf("'%c' is a consonant \n", letter);
+			printf("'%c' is a consonant.\n", letter);
 		}
 	}
 }

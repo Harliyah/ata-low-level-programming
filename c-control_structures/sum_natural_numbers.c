@@ -7,5 +7,5 @@ int main(){
 	for(int i = 1; i <= num; i++){
 		count += i;
 	}
-	printf("Sum of natural numbers up to %d is %d \n", num, count);
+	printf("Sum of natural numbers up to %d is: %d\n", num, count);
 }

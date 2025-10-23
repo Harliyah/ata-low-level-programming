@@ -18,7 +18,11 @@ int main(){
 	else if(score >= 95 && score <= 100){
 		printf("Your grade is A \n");
 	}
-	else{
-		printf("Invalid score! The value should be between (0-100)");
+	else if(score > 100){
+		printf("'Your grade is A' or other clear error handling for out-of-range input.\n");
 	}
+	else{
+		printf("'Your grade is F' or other clear error handling for out-of-range input.\n");
+	}
+			        
 }
