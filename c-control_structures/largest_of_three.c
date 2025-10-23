@@ -4,22 +4,21 @@ int main(){
 	int secondnum;
 	int thirdnum;
 	printf("Enter three integers: ");
-	scanf("%d", &firstnum);
-	scanf("%d", &secondnum);
-	scanf("%d", &thirdnum);
-	if(firstnum > secondnum && firstnum > thirdnum)
+	scanf("%d %d %d", &firstnum, &secondnum, &thirdnum);
+	if(firstnum == secondnum && secondnum == thirdnum){
+	  printf("The numbers are equal.\n");
+	}
+	else if(firstnum >= secondnum && firstnum >= thirdnum)
 	{
 	  printf("%d is the largest number.\n", firstnum);
 	}
-	else if(secondnum > firstnum && secondnum > thirdnum)
+	else if(secondnum >= firstnum && secondnum >= thirdnum)
 	{
 	  printf("%d is the largest number.\n",secondnum);
 	}
-	else if(thirdnum > firstnum &&  thirdnum > secondnum)
+	else
 	{
 	    printf("%d is the largest number.\n", thirdnum);
 	}
-	else{
-		printf("The numbers are equal.\n");
-	}
+
 }

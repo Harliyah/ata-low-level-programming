@@ -5,8 +5,10 @@ int main(){
 	float area;
 	float length;
 	float width;
+	float base;
+	float height;
 	do{
-		printf("Menu: \n1. Calculate Area of Circle \n2. Calculate Area of Rectangle \n3. Calculate Area of Triangle \n4. Exit \n");
+		printf("Menu:\n1. Calculate Area of Circle\n2. Calculate Area of Rectangle\n3. Calculate Area of Triangle\n4. Exit\n");
 		printf("Enter your choice: ");
 		scanf("%d", &choice);
 		if( choice == 1){
@@ -20,7 +22,7 @@ int main(){
 				}
 				else{
 				area = 3.1416*radius *radius;
-				printf("Area of Circle = %.2f \n", area);
+				printf("Area of Circle = %.2f\n", area);
 				break;
 				}
 			}
@@ -44,7 +46,7 @@ int main(){
 					 else{                                                                                                        break;                                                                                       }
 				}
 				area = length * width;
-				printf("Area of Rectangle = %.2f \n", area);
+				printf("Area of Rectangle = %.2f\n", area);
 				break;
 			}
 		}
@@ -52,15 +54,15 @@ int main(){
 			//Triangle
 			while(1){
 				printf("Enter the base of the triangle: ");
-				scanf("%f", &width);
-				if(width<= 0){
+				scanf("%f", &base);
+				if(base<= 0){
 				printf("Dimensions cannot be zero or negative. Please enter positive values.\n");
 				continue;
 				}
 				while(1){
 					printf("Enter the height of the triangle: ");
-					scanf("%f", &length);
-			        	if(length <= 0){
+					scanf("%f", &height);
+			        	if(height <= 0){
 					printf("Dimensions cannot be zero or negative. Please enter positive values.\n");
 					continue;
 					}
@@ -68,8 +70,8 @@ int main(){
 						break;
 					}
 				}
-					area = (width * length) /2;
-					printf("Area of Triangle = %.2f \n", area);
+					area = (base * height) /2;
+					printf("Area of Triangle = %.2f\n", area);
 					break;		
 			}
 		}

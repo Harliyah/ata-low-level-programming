@@ -12,25 +12,30 @@ int main(){
 	switch(operator){
 		case '+':
 			result = firstnum + secondnum;
-			printf("%.1f + %.1f = %.1f \n", firstnum, secondnum, result);
+			printf("%.1f + %.1f = %.1f\n", firstnum, secondnum, result);
 			break;
 		case '-':
 			result = firstnum - secondnum;             
-			printf("%.1f - %.1f = %.1f \n", firstnum, secondnum, result);           
+			printf("%.1f - %.1f = %.1f\n", firstnum, secondnum, result);           
 			break;
 		case '*':                                 
 			result = firstnum * secondnum;                             
-			printf("%.1f * %.1f = %.1f \n", firstnum, secondnum, result);        
+			printf("%.1f * %.1f = %.1f\n", firstnum, secondnum, result);        
 			break;
 		case '/':                                  
 			if(secondnum != 0)
 			{
 			result = firstnum / secondnum;             
-			printf("%.1f /  %.1f = %.1f \n", firstnum, secondnum, result);       
+			printf("%.1f / %.1f = %.1f\n", firstnum, secondnum, result);       
 			}
 			else{
-			printf("Error! Cannot be divided by 0 \n");
+			printf("Error! Cannot divide  by 0\n");
 			}
 			break;
+		default: 
+			printf("Invalid operator.\n");
+
 	}
+	return 0;
+
 }
