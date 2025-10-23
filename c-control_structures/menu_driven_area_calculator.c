@@ -21,7 +21,7 @@ int main(){
 				continue;
 				}
 				else{
-				area = 3.1416*radius *radius;
+				area = 3.14*radius *radius;
 				printf("Area of Circle = %.2f\n", area);
 				break;
 				}
