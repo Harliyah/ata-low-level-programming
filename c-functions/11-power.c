@@ -14,9 +14,9 @@ int calculate_power(int base, int exponent){
 }
 int main(){
 	int a, b, result;
-	printf("Enter base: ");
+	printf("Enter base: \n");
 	scanf("%d", &a);
-	printf("Enter exponent: ");
+	printf("Enter exponent: \n");
 	scanf("%d", &b);
 	result = calculate_power(a, b);
 	printf("%d to the power of %d is: %d\n",a,b, result);

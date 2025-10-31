@@ -9,9 +9,9 @@ int divide(int a, int b){
 }
 int main(){
 	int a, b, result;
-	printf("Enter first integer: ");
+	printf("Enter first number: ");
 	scanf("%d", &a);
-	printf("Enter the second integer: ");
+	printf("Enter the second number: ");
 	scanf("%d", &b);
 	result = divide(a, b);
 	printf("Result of division: %d\n", result);

@@ -10,9 +10,9 @@ int find_max(int a, int b){
 }
 int main(){
 	int a, b, result;
-	printf("Enter the first integer: \n");
+	printf("Enter the first number: ");
 	scanf("%d", &a);
-	printf("Enter the second integer: \n");
+	printf("Enter the second number: ");
 	scanf("%d", &b);
 	result = find_max(a, b);
 	printf("Maximum number is: %d\n", result);
