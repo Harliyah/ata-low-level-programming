@@ -10,9 +10,9 @@ int find_min(int a, int b){
 }
 int main(){
 	int a, b, result;
-	printf("Enter the first integer: ");
+	printf("Enter the first integer: \n");
 	scanf("%d", &a);
-	printf("Enter the second integer: ");
+	printf("Enter the second integer: \n");
 	scanf("%d", &b);
 	result = find_min(a, b);
 	printf("Minimum number is: %d\n", result);

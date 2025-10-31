@@ -1,9 +1,6 @@
 #include <stdio.h>
 void print_message_n_times(int n){
-	if(n <0){
-		printf("Values has to be positive\n");
-	}
-	else{
+	if(n > 0){
 	for(int i = 1; i<=n; i++){
 		printf("Hello from function!\n");
 	}
@@ -11,7 +8,7 @@ void print_message_n_times(int n){
 }
 int main(){
 	int a;
-	printf("Enter a number of times: ");
+	printf("Enter a number of times: \n");
 	scanf("%d", &a);
 	print_message_n_times(a);
 }

@@ -3,7 +3,7 @@ long long calculate_factorial(int n);
 int main(){
 	int num;
 	long long result;
-	printf("Enter a non-negative integer: ");
+	printf("Enter a non-negative integer: \n");
 	scanf("%d", &num);
 	result= calculate_factorial(num);
 	printf("Factorial of %d is: %lld\n", num, result);

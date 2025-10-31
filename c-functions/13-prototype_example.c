@@ -2,7 +2,7 @@
 void greet_user(char *name);
 int main(){
 	char a[50];
-	printf("Enter your name: ");
+	printf("Enter your name: \n");
 	scanf("%[^\n]", a);;
 	greet_user(a);
 }

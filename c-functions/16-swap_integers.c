@@ -2,9 +2,9 @@
 void swap_integers(int *a, int *b);
 int main(){
 	int a, b ;
-	printf("Enter first number: ");
+	printf("Enter first number: \n");
 	scanf("%d", &a);
-	printf("Enter second number: ");
+	printf("Enter second number: \n");
 	scanf("%d", &b);
 	printf("Before swap: num1 = %d, num2 = %d\n", a, b);
 	swap_integers(&a,&b);

@@ -9,7 +9,7 @@ int divide(int a, int b){
 }
 int main(){
 	int a, b, result;
-	printf("Enter the first integer: ");
+	printf("Enter first integer: ");
 	scanf("%d", &a);
 	printf("Enter the second integer: ");
 	scanf("%d", &b);
