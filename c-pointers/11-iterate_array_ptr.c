@@ -5,7 +5,7 @@ int main() {
     int *ptr = norm_arr;
 
     for (int i = 0; i < 5; i++) {
-        printf("Element %d (Value: %d, Address: %#lx)\n", i, *(ptr + i), (unsigned long)(ptr + i));
+        printf("Element %d (Value: %d, Address: %p)\n", i, *(ptr + i), (void*)(ptr + i));
     }
 
     return 0;
